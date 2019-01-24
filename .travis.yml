@@ -1,0 +1,19 @@
+sudo: false
+
+language: node_js
+node_js:
+  - 9
+
+branches:
+  only:
+    - master
+
+after_success:
+  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+
+#deploy:
+#  provider: heroku
+#  app: habrahabr-topic-352282
+#  api_key:
+#    secure: "5cf3d980-8fa4-4415-a13a-b1482e8d5dec"
