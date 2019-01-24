@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/habrahabr_topic_352282-master.iml" filepath="$PROJECT_DIR$/.idea/habrahabr_topic_352282-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rsoi.iml" filepath="$PROJECT_DIR$/.idea/rsoi.iml" />
     </modules>
   </component>
 </project>
