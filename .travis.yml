@@ -12,8 +12,8 @@ after_success:
   - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
 
-#deploy:
-#  provider: heroku
-#  app: habrahabr-topic-352282
-#  api_key:
-#    secure: "5cf3d980-8fa4-4415-a13a-b1482e8d5dec"
+deploy:
+  provider: heroku
+  app: rsoi123
+  api_key:
+    secure: "19dcaf5a-e3bf-4f55-872c-36c6f4877345"
